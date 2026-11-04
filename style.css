@@ -1,0 +1,91 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f1f7f8;
+    color: #333;
+}
+
+header {
+    background: teal;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+nav {
+    background: #075b66;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+section {
+    padding: 30px;
+    text-align: center;
+}
+
+h2 {
+    color: teal;
+}
+
+.doctor {
+    background: white;
+    padding: 20px;
+    margin: 15px auto;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #ccc;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    max-width: 350px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+input, select {
+    width: 90%;
+    padding: 12px;
+    margin: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 95%;
+    padding: 12px;
+    background: teal;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #075b66;
+}
+
+#result {
+    color: green;
+    font-weight: bold;
+}
+
+footer {
+    background: #075b66;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
